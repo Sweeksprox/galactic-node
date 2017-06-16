@@ -1,5 +1,5 @@
 var planets = [{id : 'endor',
-				name : 'Endor',
+				           name : 'Endor',
                 nodes : ['geonosis', 'kashyyyk', 'hoth', 'bespin']
                },
                {id : 'hoth',
