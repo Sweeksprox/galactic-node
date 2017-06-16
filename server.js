@@ -104,7 +104,7 @@ var checkToken = function(req, res, next) {
     return next(error);
   }
   if (database.users[user].token != token) {
-    error.code = 402;
+    error.code = 400;
     error.message = 'Login session expired, please re-authenticate.';
     error.redirect = 'landing.html';
     return next(error);
